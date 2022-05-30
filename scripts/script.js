@@ -1,3 +1,4 @@
+// Данные карточек
 const teamData = [
    {
       img: './images/team/man_bobtcov.png',
