@@ -1,0 +1,111 @@
+.who-work__logo {
+   height: 48px;
+   margin-right: 10px;
+}
+
+.huawei {
+   margin-right: 0;
+}
+.mail2 {
+   margin-right: 0;
+}
+
+/* @media (max-width: 1040px) {
+   .who-work__logo:nth-child(5n) {
+      margin-right: 0;
+   }
+} */
+
+@media (max-width: 826px) {
+   .who-work__logo {
+      height: 32px;
+      margin-right: 40px;
+   }
+   .huawei {
+      margin-right: 0;
+   }
+   .mail2 {
+      margin-right: 0;
+   }
+}
+
+@media (max-width: 688px) {
+   .who-work__logo {
+      margin-right: 10px;
+   }
+   .huawei {
+      margin-right: 0;
+   }
+   
+   .mail2 {
+      margin-right: 0;
+   }
+}
+
+@media (max-width: 597px) {
+   .who-work__logo {
+      height: 20px;
+      margin-right: 30px;
+   }
+   .huawei {
+      margin-right: 0;
+   }
+   
+   .mail2 {
+      margin-right: 0;
+   }
+}
+
+@media (max-width: 486px) {
+   .who-work__logo {
+      margin-right: 10px;
+   }
+
+   .huawei {
+      margin-right: 0;
+   }
+
+   .mail2 {
+      margin-right: 0;
+   }
+}
+
+@media (max-width: 380px) {
+   .who-work__logo {
+      margin-right: 30px;
+   }
+   .rosneft {
+      order: 1;
+   }
+   .gazprom {
+      order: 2;
+   }
+   .mail {
+      order: 3;
+      margin-right: 0;
+   }
+   .simens {
+      order: 4;
+   }
+   .mail2 {
+      order: 5;
+   }
+   .gazprom2 {
+      order: 6;
+      margin-right: 0;
+   }
+   .sbank {
+      order: 7;
+   }
+   .huawei {
+      order: 8;
+      margin-right: 0;
+   }
+   
+}
+
+@media (max-width: 354px) {
+   .who-work__logo {
+      margin-right: 10px;
+   }
+}

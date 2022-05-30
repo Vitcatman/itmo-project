@@ -9,7 +9,7 @@
     />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="stylesheet" href="./vendor/swiper-bundle.css" />
-    <title>ИТМО/title>
+    <title>ИТМО</title>
   </head>
 
   <body class="body">
@@ -17,7 +17,58 @@
       <header class="header">
       </header>
       <main class="content">
-
+        <!-- НАША КОМАНДА -->
+        <section class="team" >
+          <h2 class="team__title">наша команда</h2>
+          <div class="team__color" ></div>
+            <div class="team__swiper">
+              <div class="swiper-pagination team__swiper-pag"></div>
+              <button class="swiper-button-prev team__swiper-but-prev"><img class="team__sviper-but-icon" src="./images/team/prev.svg" alt=""></button>
+              <button class="swiper-button-next team__swiper-but-next"><img class="team__sviper-but-icon" src="./images/team/next.svg" alt=""></button>
+              <div class="swiper team__swiper">
+                <div class="swiper-wrapper">
+                <template id = "cards">
+                  <div class="swiper-slide team__slide">
+                    <div class="team__card">
+                      <img src="" alt="" class="team__card-img">
+                      <h3 class="team__card-name"></h3>
+                      <h3 class="team__card-name sname"></h3>
+                      <p class="team__card-info"></p>
+                    </div>
+                  </div>
+                </template>
+                </div>
+              </div>
+            </div>
+        </section>
+        <!-- С КЕМ МЫ РАБОТАЕМ -->
+        <section class="who-work" >
+          <h2 class="who-work__title">с кем мы работаем</h1>
+          <div class="who-work__cont">
+            <p class="who-work__info">
+              За время сотрудничества компания показала себя как надежный партнер, способный оперативно решать вопросы по внесению
+              необходимых изменений.
+            </p>
+            <p class="who-work__info">
+              Отдельно хочется отметить квалифицированный персонал компании, который всегда готов прийти на помощь в решении
+              поставленных задач, дать объективную оценку и свои рекомендации по улучшению деятельности.
+              Надеемся на дальнейшее и плодотворное сотрудничество.
+            </p>
+          </div>
+          <div class="who-work__logos">
+            <img class="who-work__logo gazprom" src="./images/who-work/Gazprom.svg" alt="logo">
+            <img class="who-work__logo disabled " src="./images/who-work/Sberbank.svg" alt="logo">
+            <img class="who-work__logo mail" src="./images/who-work/Mail.svg" alt="logo">
+            <img class="who-work__logo simens" src="./images/who-work/Siemens.svg" alt="logo">
+            <img class="who-work__logo huawei" src="./images/who-work/huawei.svg" alt="logo">
+            <img class="who-work__logo sbank" src="./images/who-work/Sberbank.svg" alt="logo">
+            <img class="who-work__logo rosneft" src="./images/who-work/Rosveft.svg" alt="logo">
+            <img class="who-work__logo gazprom2" src="./images/who-work/Gazprom.svg" alt="logo">
+            <img class="who-work__logo disabled" src="./images/who-work/huawei.svg" alt="logo">
+            <img class="who-work__logo mail2" src="./images/who-work/Mail.svg" alt="logo">
+          </div>
+          
+        </section>
       </main>
       <footer class="footer">
 
@@ -28,3 +79,5 @@
     <script src=" ./scripts/script.js"></script>
   </body>
 </html>
+
+

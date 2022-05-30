@@ -1,0 +1,22 @@
+.team {
+   margin-top: 101px;
+   position: relative;
+   z-index: 2;
+   /* margin-bottom: -300px; */
+   padding-bottom: 30px;
+}
+
+@media (max-width: 1050px) {
+   .team {
+      /* padding-bottom: 0; */
+      margin-top: 81px;
+      /* margin-bottom: -175px; */
+   }
+}
+
+@media (max-width: 767px) {
+   .team {
+      margin-top: 54px;
+      /* margin-bottom: -140px; */
+   }
+}

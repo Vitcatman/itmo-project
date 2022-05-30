@@ -6,3 +6,26 @@
 @import url("../blocks/header/header.css");
 
 @import url("../blocks/footer/footer.css");
+
+
+@import url("../blocks/who-work/who-work.css");
+@import url("../blocks/who-work/__cont/who-work__cont.css");
+@import url("../blocks/who-work/__title/who-work__title.css");
+@import url("../blocks/who-work/__info/who-work__info.css");
+@import url("../blocks/who-work/__logos/who-work__logos.css");
+@import url("../blocks/who-work/__logo/who-work__logo.css");
+
+@import url("../blocks/team/team.css");
+@import url("../blocks/team/__color/team__color.css");
+@import url("../blocks/team/__card/team__card.css");
+@import url("../blocks/team/__title/team__title.css");
+@import url("../blocks/team/__card-img/team__card-img.css");
+@import url("../blocks/team/__card-name/team__card-name.css");
+@import url("../blocks/team/__card-info/team__card-info.css");
+@import url("../blocks/team/__swiper/team__swiper.css");
+@import url("../blocks/team/__slide/team__slide.css");
+@import url("../blocks/team/__swiper-but-next/team__swiper-but-next.css");
+@import url("../blocks/team/__swiper-but-prev/team__swiper-but-prev.css");
+@import url("../blocks/team/__swiper-but-icon/team__swiper-but-icon.css");
+@import url("../blocks/team/__swiper-pag/team__swiper-pag.css");
+
