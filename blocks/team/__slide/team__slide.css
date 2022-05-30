@@ -1,0 +1,18 @@
+.team__slide {
+   padding: 0;
+}
+
+
+/* @media (max-width: 825px) {
+   .team__slide:first-child {
+      padding-left: 39px;
+      width: 210px;
+   }
+}
+
+@media (max-width: 825px) {
+   .team__slide:last-child {
+         padding-right: 39px;
+      }
+} */
+

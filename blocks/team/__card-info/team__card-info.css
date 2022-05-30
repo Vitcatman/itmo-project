@@ -1,0 +1,26 @@
+.team__card-info {
+   margin: 4px 0 6px 0;
+   padding: 0;
+   font-family: OpenSans, Arial, Helvetica, sans-serif;
+   font-style: italic;
+   text-align: center;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 19px;
+   color: #009FAC;
+}
+
+@media (max-width: 1050px) {
+   .team__card-info {
+      font-size: 12px;
+      line-height: 17px;
+   }
+}
+
+@media (max-width: 767px) {
+   .team__card-info {
+      font-size: 10px;
+      line-height: 14px;
+      margin: 0;
+   }
+}

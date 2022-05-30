@@ -1,0 +1,29 @@
+.who-work {
+   position: relative;
+   z-index: 1;
+   background: rgba(0, 19, 55, 1);
+   box-sizing: border-box;
+   padding: 100px 40px 50px 40px;
+   
+   /* padding: 370px 40px 50px 40px; */
+}
+
+@media (max-width: 1050px) {
+   .who-work {
+      
+      padding: 80px 40px 50px 40px;
+   }
+}
+
+@media (max-width: 767px) {
+   .who-work {
+      padding: 60px 40px 50px 40px;
+   }
+}
+
+@media (max-width: 426px) {
+   .who-work {
+      
+      padding: 54px 17px 50px 17px;
+   }
+}

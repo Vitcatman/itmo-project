@@ -11,4 +11,5 @@
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     overflow: hidden;
+    background: rgba(224, 240, 255, 1);
 }
